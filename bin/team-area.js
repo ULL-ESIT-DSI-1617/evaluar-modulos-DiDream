@@ -6,7 +6,7 @@ try {
     let type=process.argv[2];
     let Shape = require(`@didream/ull-shape-${type.toLowerCase()}`);
     let obj = eval('('+process.argv[3]+')');
-    let t= new Shape(obj,type);
+    let t= new Shape(obj);
     let s= t.getArea();
     console.log(s);
 
