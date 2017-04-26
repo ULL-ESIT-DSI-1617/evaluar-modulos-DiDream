@@ -9,5 +9,4 @@ class Triangle extends Shape {
       return 0.5 * this.width * this.height;
     }
 }
-Shape.Shapes.Triangle = Triangle;
-module.exports = Shape;
+module.exports = Triangle;
