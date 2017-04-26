@@ -1,6 +1,6 @@
 {
-  "name": "ull-shape",
-  "version": "0.0.3",
+  "name": "@didream/ull-shape",
+  "version": "0.0.1",
   "description": "",
   "main": "shapesarea.js",
   "scripts": {
