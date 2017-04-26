@@ -1,6 +1,6 @@
 {
   "name": "@didream/ull-shape-square",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "square.js",
   "scripts": {
@@ -23,6 +23,6 @@
   "dependencies": {
     "mocha": "^2.3.3",
     "should": "^7.1.1",
-    "@didream/ull-shape": "^0.0.1"
+    "@didream/ull-shape": "latest"
   }
 }
