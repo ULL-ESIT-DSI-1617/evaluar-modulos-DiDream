@@ -1,6 +1,6 @@
 {
   "name": "@didream/ull-shape-triangle",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "main": "triangle.js",
   "scripts": {
@@ -23,6 +23,6 @@
   "dependencies": {
     "mocha": "^2.3.3",
     "should": "^7.1.1",
-    "ull-shape": "^0.0.1"
+    "@didream/ull-shape": "^0.0.1"
   }
 }
