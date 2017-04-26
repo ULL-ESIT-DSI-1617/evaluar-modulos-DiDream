@@ -1,0 +1,30 @@
+{
+  "name": "ull-shape-triangle",
+  "version": "0.0.1",
+  "description": "",
+  "main": "triangle.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --require should"
+  },
+  "bin":{
+      "team-area": "bin/team-area.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-DSI-1617/evaluar-modulos-DiDream/tree/triangle"
+  },
+  "keywords": [
+    "js",
+    "switch smell"
+  ],
+  "author": "Casiano Rodriguez Leon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-DSI-1617/evaluar-modulos-DiDream/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "mocha": "^2.3.3",
+    "should": "^7.1.1"
+  }
+}
