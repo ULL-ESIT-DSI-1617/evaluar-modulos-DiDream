@@ -1,13 +1,17 @@
 {
-  "name": "switchsmell",
-  "version": "1.0.0",
-  "description": "ejemplos de switch smell.",
+  "name": "ull-shape",
+  "version": "0.0.1",
+  "description": "",
+  "main": "shapesarea.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --require should"
   },
+  "bin":{
+      "team-area": "bin/team-area.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ULL-ESIT-DSI-1617/evalua-strategy-pattern.git"
+    "url": "git@github.com:ULL-ESIT-DSI-1617/evaluar-modulos-DiDream.git"
   },
   "keywords": [
     "js",
@@ -16,7 +20,7 @@
   "author": "Casiano Rodriguez Leon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ULL-ESIT-DSI-1617/evalua-strategy-pattern/issues"
+    "url": "https://github.com/ULL-ESIT-DSI-1617/evaluar-modulos-DiDream/issues"
   },
   "homepage": "",
   "dependencies": {

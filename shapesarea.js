@@ -2,7 +2,7 @@
 let util = require('util');
 
 class Shape {
-       
+
   constructor(options, shape) {
     Object.assign(this, options);
     this.shape =  shape || this.constructor.name;
@@ -11,7 +11,7 @@ class Shape {
   getArea() {
    try {
       let shape = this;
-      if (this.constructor.name === 'Shape') 
+      if (this.constructor.name === 'Shape')
         shape = new Shape.Shapes[this.shape](this);
       return shape.area();
    }
@@ -20,8 +20,7 @@ class Shape {
      return null;
    }
   }
-  
+
 }
 Shape.Shapes = Shape.Shapes || {};
 module.exports = Shape;
-
