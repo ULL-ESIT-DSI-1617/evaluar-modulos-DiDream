@@ -1,6 +1,6 @@
 {
-  "name": "ull-shape-triangle",
-  "version": "0.0.2",
+  "name": "@didream/ull-shape-triangle",
+  "version": "0.0.1",
   "description": "",
   "main": "triangle.js",
   "scripts": {
