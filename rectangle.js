@@ -1,5 +1,5 @@
 'use strict'
-let Shape = require('ull-shape');
+let Shape = require('@didream/ull-shape');
 class Rectangle extends Shape {
     constructor(options) {
       super(options)
