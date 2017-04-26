@@ -8,5 +8,4 @@ class Square extends Shape {
       return  Math.pow(this.width,2)
     }
 }
-Shape.Shapes.Square = Square;
-module.exports = Shape;
+module.exports = Square;
