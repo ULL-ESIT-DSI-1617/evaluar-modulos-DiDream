@@ -8,5 +8,4 @@ class Rectangle extends Shape {
       return this.width * this.height;
     }
 }
-Shape.Shapes.Rectangle = Rectangle;
-module.exports = Shape;
+module.exports = Rectangle;
