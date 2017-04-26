@@ -9,4 +9,4 @@ class Rectangle extends Shape {
     }
 }
 Shape.Shapes.Rectangle = Rectangle;
-module.exports = Rectangle;
+module.exports = Shape;
