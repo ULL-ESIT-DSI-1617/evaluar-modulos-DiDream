@@ -4,7 +4,6 @@
   "description": "",
   "main": "shapesarea.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --require should"
   },
   "bin":{
       "team-area": "bin/team-area.js"
